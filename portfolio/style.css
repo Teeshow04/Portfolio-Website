@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    body {
+        font-family: 'poppins',sans-serif;
+        background-color: #000;
+        color: #fff;
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+     .nav-header { 
+        display: flex;
+        align-items: center; 
+        justify-content: flex-end; 
+        width: 90%;
+        padding: 20px ;
+
+    }  
+    .nav-header .list-links {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .list-links li {
+        margin: 10px 20px;
+    }
+    .list-links li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: color o.3s ease;
+    }
+    .list-links li a:hover {
+        color: #00a99f;
+    }
+    .list-links li.current a {
+        color: #00a99f;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+     
+     .container {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        padding-left: 100px;
+        padding-right: 15%;  
+        /* margin-bottom: 30px;  */
+        /* line-height: 1; */
+}
+ .portfolio-one { 
+    display: block;
+    font-size: 20px;
+    letter-spacing: 12px;
+    line-height: 1;
+    margin: 15px   0;
+    padding-left: 100px;
+} 
+
+ .portfolio-one h1 {
+    margin-left: 5px;
+    padding-left: 5px; 
+} 
+
+ .portfolio-two h4 { 
+    color: #00a99f;
+    margin: 15px 0;
+}
+.portfolio-two p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    grid-column: 1;
+    border: 2px solid  #00a99f;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.portfolio-three {
+    display: grid;
+    grid-template-columns:  auto auto  1fr;
+    align-items: flex-start;
+    gap: 10px; 
+     margin-bottom: 20px; 
+}
+.text-container {
+    display: contents;
+    margin: 200px;
+}
+ .text-container h4 {
+    grid-column: 2;
+    /* white-space: nowrap; */
+    /* margin: 0; */
+
+ }
+
+.text-container p {
+    grid-column: 3;
+}
+
+.portfolio-four {
+    background-color: #00a99f;
+    border: 2px  solid #00a99f;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.portfolio-four h5  {
+    margin: 10px 0;
+}
+  
+.portfolio-four p {
+   margin: 10px  0;
+}
+    
+footer {
+    color: #fff;
+     text-align: center;
+     font-size: 14px;
+     padding: 15px; 
+ }
+    
