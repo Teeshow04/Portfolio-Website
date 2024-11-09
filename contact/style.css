@@ -79,12 +79,30 @@
         width: 100%;
         overflow: hidden;
     }
-    footer img{
-        width: 100%;
-        height: auto;
-        max-height: 100px;
-       display: block;
+    
+     .banner {
+        background-color: #000;
+        position: relative;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .triangle-left {
+        position: absolute;
+        left: 0;
+        width: 60%;
+        height: 80px;
+        background: linear-gradient(to bottom right, #00b3a7, #007b7a);
+        clip-path: polygon(0 0, 100% 100%, 0 100%);
+     }
+    
+    .triangle-right {
+         position: absolute;
+         right: 0;
+         width: 50%;
+         height: 100%;
+         background: linear-gradient(to bottom right, #007b7a, #004849);
+         clip-path: polygon(100% 0, 0 100%, 100% 100%);
     }
-    
-    
     

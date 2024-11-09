@@ -14,12 +14,7 @@
         height: 100dvh;
        
     }
-    header{
-        background-image: url(/assets/project.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-    }
+   
     .nav-header { 
         display: flex;
         align-items: center; 
@@ -38,7 +33,7 @@
     }
     .list-links li a {
         text-decoration: none;
-        color: #000;
+        color: #fff;
         font-size: 16px;
         transition: color o.3s ease;
     }
