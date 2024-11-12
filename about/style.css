@@ -113,65 +113,47 @@
     }
     }
     
-    
     .container {
-         display: flex;
-         width: 100%;
-         height: 100%;
-         flex: 1;
-    }
-
-     .left-section { 
-        background-color: #000;
-        display: flex;
-        justify-content: space-between;
+         display: flex;;
         flex-direction: column;
-        width: 30%;
-        gap: 3px;
-        margin-bottom: 30px;
-    }
-    .left-section-btn {
-        background-color:  #00a99f;
-        flex: 1;
+         justify-content: center;
+        padding-left: 100px;
+        flex: 1
+   }
+    .section-img  img{
+        border: 2px solid  #00a99f;
+        border-radius: 50%;
+        margin: 30px  0  10px 0;
+     
+
     }
 
-    .left-section-img {
-        background-color: #00a99f;
-        display: flex;
-        justify-content: center;
-    }
 
-    .left-section-img img {
-          border-radius: 50%;
-          width: 70%;
-         margin: 10px 0;
-    }
-
-    .right-section {
+    .section {
         display: flex;
         flex-direction: column;
      justify-content: center;
-     flex: 1;
-     padding:  10px  0  0  50px; 
+       flex: 1;
+     /* padding:  10px  0  0  50px;  */
     }
-  .right-section-one {
+  .section-one {
           margin-bottom: 20px;
           padding-bottom: 10px;
  }
-    .right-section-one h1 {
+    .section-one h1 {
         letter-spacing: 11px;
         margin-bottom: 10px;
         padding-bottom: 10px;
     }
-    .right-section-one p {
+    .section-one p {
         padding-left: 15px;
         margin-left: 5px;
     }
-    .right-section h2 {
+    .section h2 {
         color: #00a99f;
         margin-bottom: 10px;
     }
-    .right-section-btn {
+    .section-btn {
         display: flex;
         flex-direction: column;
         gap: 10px;
