@@ -65,7 +65,11 @@
         font-size: 24px;
         cursor: pointer;
         float: left;
-    
+        transition: all 0.3s linear;
+    }
+    .toggle-btn:hover {
+      color:#00F5FF;
+      transform: rotate(90deg);
     }
     
     @media (max-width: 768px) {
